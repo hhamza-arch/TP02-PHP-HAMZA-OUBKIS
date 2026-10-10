@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - TP PHP</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f5;
+            margin: 0;
+            color: #222;
+        }
+
+        header {
+            background-color: #198754;
+            color: white;
+            text-align: center;
+            padding: 30px 15px;
+        }
+
+        header h1 {
+            margin: 0 0 10px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .exercices {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .exercice {
+            display: block;
+            background-color: white;
+            padding: 22px;
+            border-radius: 10px;
+            text-align: center;
+            text-decoration: none;
+            color: #198754;
+            border: 1px solid #ddd;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        .exercice:hover {
+            background-color: #198754;
+            color: white;
+            transform: translateY(-3px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Bienvenue dans mon TP PHP</h1>
+        <p>Choisissez un exercice pour commencer</p>
+    </header>
+
+    <main>
+        <h2>Liste des exercices</h2>
+
+        <div class="exercices">
+            <a class="exercice" href="ex01.php">Exercice 1</a>
+            <a class="exercice" href="ex02.php">Exercice 2</a>
+            <a class="exercice" href="ex03.php">Exercice 3</a>
+            <a class="exercice" href="ex04.php">Exercice 4</a>
+            <a class="exercice" href="ex05.php">Exercice 5</a>
+            <a class="exercice" href="ex06.php">Exercice 6</a>
+            <a class="exercice" href="ex07.php">Exercice 7</a>
+            <a class="exercice" href="ex08.php">Exercice 8</a>
+            <a class="exercice" href="ex09.php">Exercice 9</a>
+            <a class="exercice" href="ex10_get.html">Exercice 10 - GET</a>
+            <a class="exercice" href="ex10_post.html">Exercice 10 - POST</a>
+        </div>
+    </main>
+
+    <footer>
+        TP PHP - Tous les exercices
+    </footer>
+
+</body>
+</html>
